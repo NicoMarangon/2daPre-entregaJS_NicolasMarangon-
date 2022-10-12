@@ -80,6 +80,7 @@ function ordenar(criterio, array) {
             alert('No es un criterio válido');
             break;
     }
+    criterio = prompt('Elegí el criterio deseado:\n1 - Apellido (A a Z) \n2 - Apellido (Z a A)\n3 - Mejor a peor puntuado');
 }
 
 //----------------------Fin de ordenar el array de acuerdo a lo que se elija----------------------//

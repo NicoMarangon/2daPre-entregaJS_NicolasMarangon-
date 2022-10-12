@@ -47,11 +47,12 @@ while (continuar) {
     }
 
     let datos = ingreso.split('/');
-    const libro = new Alumno(datos[0], datos[1], datos[2], datos[3], datos[4]);
+    console.log(datos);
+    const alumno = new Alumno(datos[0], datos[1], datos[2], datos[3], datos[4]);
 
-    alumnos.push(Alumno);
+    alumnos.push(alumno);
 
-    Alumno.asignarId(alumnos);
+    alumno.asignarId(alumnos);
 
     console.log(alumnos)
 } 

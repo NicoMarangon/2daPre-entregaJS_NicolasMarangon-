@@ -40,7 +40,7 @@ let continuar = true;
 
 while (continuar) {
     let ingreso = prompt('Ingresa los datos del alumno: Nombre, Apellido, Edad, Sexo (Masculino ó Femenino), puntaje de 1 a 10, separados por una barra diagonal (/). Ingresa X para finalizar');
-
+    
     if (ingreso.toUpperCase() == 'X') {
         continuar = false;
         break;
